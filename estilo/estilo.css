@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap";
+body {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(240, 170, 66);
+}
+
+.contenedoruno {
+  display: flex;
+  justify-content: center;
+  margin: 20px 70px;
+  align-items: center;
+  border: orangered outset 2px;
+  padding: 20px 50px;
+}
+.contenedoruno img {
+  width: 300px;
+  height: 300px;
+}
+
+.ubicación {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pie li {
+  margin: 10px;
+  padding: 0px;
+}
+
+.item {
+  text-align: left;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  border: 2px rgb(255, 51, 0) solid;
+  margin: 30px 60px;
+}
+
+.cero {
+  color: brown;
+  font-weight: bold;
+}
+
+.productocero {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(236, 109, 25);
+  background-size: auto;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 2px black solid;
+  margin-top: 10px;
+}
+.productocero img {
+  width: 300px;
+}
+
+.productouno {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(236, 109, 25);
+  background-size: auto;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 2px black solid;
+  margin-top: 10px;
+}
+.productouno img {
+  width: 300px;
+  height: 400px;
+}
+
+.productodos {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(236, 109, 25);
+  background-size: auto;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 2px black solid;
+  margin-top: 10px;
+}
+.productodos img {
+  width: 300px;
+  height: 300px;
+}
+
+.logo {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.mapa {
+  margin: 30px;
+}
+
+.formulario {
+  border: 2px solid rgb(253, 181, 49);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: rgb(241, 192, 100);
+}
+
+h1 {
+  color: rgb(245, 145, 127);
+  font-weight: 700;
+  text-align: center;
+  margin: 0px 0px 150px 0px;
+  padding-bottom: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 40px;
+}
+
+main {
+  text-align: center;
+}
+main img {
+  margin-top: 30px;
+}
+
+div p {
+  color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=estilo.css.map */
